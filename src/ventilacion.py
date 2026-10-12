@@ -46,7 +46,7 @@ def generar_csv_ventilacion(datos_meteorologicos):
 
 
 if __name__ == "__main__":
-    from api_meteorologica import obtener_datos_meteorologicos
+    from src.api_meteorologica import obtener_datos_meteorologicos
 
     datos = obtener_datos_meteorologicos()
     generar_csv_ventilacion(datos)
